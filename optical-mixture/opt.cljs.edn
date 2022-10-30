@@ -1,0 +1,4 @@
+^{:ring-server-options {:port 9012}}
+{:main simplyonmyway.om
+ :optimizations :advanced}
+
