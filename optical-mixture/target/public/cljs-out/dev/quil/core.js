@@ -85,17 +85,17 @@ return elem.processing_obj;
 return null;
 }
 });
-var ret__4785__auto___14814 = (function (){
+var ret__4785__auto___15349 = (function (){
 quil.core.with_sketch = (function quil$core$with_sketch(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___14815 = arguments.length;
-var i__4737__auto___14816 = (0);
+var len__4736__auto___15350 = arguments.length;
+var i__4737__auto___15351 = (0);
 while(true){
-if((i__4737__auto___14816 < len__4736__auto___14815)){
-args__4742__auto__.push((arguments[i__4737__auto___14816]));
+if((i__4737__auto___15351 < len__4736__auto___15350)){
+args__4742__auto__.push((arguments[i__4737__auto___15351]));
 
-var G__14817 = (i__4737__auto___14816 + (1));
-i__4737__auto___14816 = G__14817;
+var G__15352 = (i__4737__auto___15351 + (1));
+i__4737__auto___15351 = G__15352;
 continue;
 } else {
 }
@@ -117,15 +117,15 @@ return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.cal
 (quil.core.with_sketch.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(quil.core.with_sketch.cljs$lang$applyTo = (function (seq14810){
-var G__14811 = cljs.core.first.call(null,seq14810);
-var seq14810__$1 = cljs.core.next.call(null,seq14810);
-var G__14812 = cljs.core.first.call(null,seq14810__$1);
-var seq14810__$2 = cljs.core.next.call(null,seq14810__$1);
-var G__14813 = cljs.core.first.call(null,seq14810__$2);
-var seq14810__$3 = cljs.core.next.call(null,seq14810__$2);
+(quil.core.with_sketch.cljs$lang$applyTo = (function (seq15345){
+var G__15346 = cljs.core.first.call(null,seq15345);
+var seq15345__$1 = cljs.core.next.call(null,seq15345);
+var G__15347 = cljs.core.first.call(null,seq15345__$1);
+var seq15345__$2 = cljs.core.next.call(null,seq15345__$1);
+var G__15348 = cljs.core.first.call(null,seq15345__$2);
+var seq15345__$3 = cljs.core.next.call(null,seq15345__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__14811,G__14812,G__14813,seq14810__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15346,G__15347,G__15348,seq15345__$3);
 }));
 
 return null;
@@ -169,8 +169,8 @@ return quil.sketch.current_applet.call(null).quil_internal_state;
  *   ```
  */
 quil.core.state = (function quil$core$state(var_args){
-var G__14819 = arguments.length;
-switch (G__14819) {
+var G__15354 = arguments.length;
+switch (G__15354) {
 case 0:
 return quil.core.state.cljs$core$IFn$_invoke$arity$0();
 
@@ -212,14 +212,14 @@ return cljs.core.get.call(null,state,key);
  */
 quil.core.set_state_BANG_ = (function quil$core$set_state_BANG_(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___14822 = arguments.length;
-var i__4737__auto___14823 = (0);
+var len__4736__auto___15357 = arguments.length;
+var i__4737__auto___15358 = (0);
 while(true){
-if((i__4737__auto___14823 < len__4736__auto___14822)){
-args__4742__auto__.push((arguments[i__4737__auto___14823]));
+if((i__4737__auto___15358 < len__4736__auto___15357)){
+args__4742__auto__.push((arguments[i__4737__auto___15358]));
 
-var G__14824 = (i__4737__auto___14823 + (1));
-i__4737__auto___14823 = G__14824;
+var G__15359 = (i__4737__auto___15358 + (1));
+i__4737__auto___15358 = G__15359;
 continue;
 } else {
 }
@@ -243,9 +243,9 @@ return cljs.core.reset_BANG_.call(null,state_STAR_,state_map);
 (quil.core.set_state_BANG_.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(quil.core.set_state_BANG_.cljs$lang$applyTo = (function (seq14821){
+(quil.core.set_state_BANG_.cljs$lang$applyTo = (function (seq15356){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq14821));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq15356));
 }));
 
 /**
@@ -287,8 +287,8 @@ return quil.core.current_graphics.call(null).alpha(color);
  *   and [[shininess]] in setting the material properties of shapes.
  */
 quil.core.ambient = (function quil$core$ambient(var_args){
-var G__14826 = arguments.length;
-switch (G__14826) {
+var G__15361 = arguments.length;
+switch (G__15361) {
 case 1:
 return quil.core.ambient.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -324,8 +324,8 @@ return quil.core.current_graphics.call(null).ambientMaterial(r,g,b);
  *   parameters is determined by the current [[color-mode]].
  */
 quil.core.ambient_light = (function quil$core$ambient_light(var_args){
-var G__14829 = arguments.length;
-switch (G__14829) {
+var G__15364 = arguments.length;
+switch (G__15364) {
 case 3:
 return quil.core.ambient_light.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -381,8 +381,8 @@ return quil.core.current_graphics.call(null).applyMatrix(a,b,c,d,e,f);
  *   `:chord` or `:pie`.
  */
 quil.core.arc = (function quil$core$arc(var_args){
-var G__14832 = arguments.length;
-switch (G__14832) {
+var G__15367 = arguments.length;
+switch (G__15367) {
 case 6:
 return quil.core.arc.cljs$core$IFn$_invoke$arity$6((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]),(arguments[(5)]));
 
@@ -448,8 +448,8 @@ return quil.sketch.current_applet.call(null).atan2(y,x);
  *   [[create-graphics]]. Converts args to `floats`.
  */
 quil.core.background = (function quil$core$background(var_args){
-var G__14835 = arguments.length;
-switch (G__14835) {
+var G__15370 = arguments.length;
+switch (G__15370) {
 case 1:
 return quil.core.background.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -528,8 +528,8 @@ return quil.core.current_graphics.call(null).beginContour();
  *   such as [[ellipse]] or [[rect]] within [[begin-shape]].
  */
 quil.core.begin_shape = (function quil$core$begin_shape(var_args){
-var G__14838 = arguments.length;
-switch (G__14838) {
+var G__15373 = arguments.length;
+switch (G__15373) {
 case 0:
 return quil.core.begin_shape.cljs$core$IFn$_invoke$arity$0();
 
@@ -563,8 +563,8 @@ return quil.core.current_graphics.call(null).beginShape((mode__$1 | (0)));
  *   points which define the shape of the curve.
  */
 quil.core.bezier = (function quil$core$bezier(var_args){
-var G__14841 = arguments.length;
-switch (G__14841) {
+var G__15376 = arguments.length;
+switch (G__15376) {
 case 8:
 return quil.core.bezier.cljs$core$IFn$_invoke$arity$8((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]),(arguments[(5)]),(arguments[(6)]),(arguments[(7)]));
 
@@ -626,8 +626,8 @@ return quil.core.current_graphics.call(null).bezierTangent(a,b,c,d,t);
  *   [[begin-shape]].
  */
 quil.core.bezier_vertex = (function quil$core$bezier_vertex(var_args){
-var G__14844 = arguments.length;
-switch (G__14844) {
+var G__15379 = arguments.length;
+switch (G__15379) {
 case 6:
 return quil.core.bezier_vertex.cljs$core$IFn$_invoke$arity$6((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]),(arguments[(5)]));
 
@@ -658,8 +658,8 @@ return quil.core.current_graphics.call(null).bezierVertex(cx1,cy1,cz1,cx2,cy2,cz
  *   the number of digits used.
  */
 quil.core.binary = (function quil$core$binary(var_args){
-var G__14847 = arguments.length;
-switch (G__14847) {
+var G__15382 = arguments.length;
+switch (G__15382) {
 case 1:
 return quil.core.binary.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -728,8 +728,8 @@ return cljs.core.subs.call(null,full,(cljs.core.count.call(null,full) - num_digi
  *                alpha (transparency) values.
  */
 quil.core.blend = (function quil$core$blend(var_args){
-var G__14850 = arguments.length;
-switch (G__14850) {
+var G__15385 = arguments.length;
+switch (G__15385) {
 case 9:
 return quil.core.blend.cljs$core$IFn$_invoke$arity$9((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]),(arguments[(5)]),(arguments[(6)]),(arguments[(7)]),(arguments[(8)]));
 
@@ -813,8 +813,8 @@ return quil.core.current_graphics.call(null).blue(quil.util.clj_unchecked_int.ca
  * Creates an extruded rectangle.
  */
 quil.core.box = (function quil$core$box(var_args){
-var G__14853 = arguments.length;
-switch (G__14853) {
+var G__15388 = arguments.length;
+switch (G__15388) {
 case 1:
 return quil.core.box.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -868,8 +868,8 @@ return quil.core.current_graphics.call(null).brightness(quil.util.clj_unchecked_
  *   current camera settings.
  */
 quil.core.camera = (function quil$core$camera(var_args){
-var G__14856 = arguments.length;
-switch (G__14856) {
+var G__15391 = arguments.length;
+switch (G__15391) {
 case 0:
 return quil.core.camera.cljs$core$IFn$_invoke$arity$0();
 
@@ -927,8 +927,8 @@ return quil.core.current_graphics.call(null).clear();
  *   * `a` - alpha value
  */
 quil.core.color = (function quil$core$color(var_args){
-var G__14859 = arguments.length;
-switch (G__14859) {
+var G__15394 = arguments.length;
+switch (G__15394) {
 case 1:
 return quil.core.color.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -982,8 +982,8 @@ return quil.core.current_graphics.call(null).color(r,g,b,a);
  *   parameters range1, range2, range3, and range 4.
  */
 quil.core.color_mode = (function quil$core$color_mode(var_args){
-var G__14862 = arguments.length;
-switch (G__14862) {
+var G__15397 = arguments.length;
+switch (G__15397) {
 case 1:
 return quil.core.color_mode.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1037,8 +1037,8 @@ return quil.core.current_graphics.call(null).colorMode(mode__$1,max_x,max_y,max_
  *      * `cap`      - whether to draw the base of the cone
  */
 quil.core.cone = (function quil$core$cone(var_args){
-var G__14865 = arguments.length;
-switch (G__14865) {
+var G__15400 = arguments.length;
+switch (G__15400) {
 case 2:
 return quil.core.cone.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1095,8 +1095,8 @@ return quil.sketch.current_applet.call(null).constrain(amt,low,high);
  *   image has an alpha channel set, it will be copied as well. 
  */
 quil.core.copy = (function quil$core$copy(var_args){
-var G__14868 = arguments.length;
-switch (G__14868) {
+var G__15403 = arguments.length;
+switch (G__15403) {
 case 2:
 return quil.core.copy.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1115,45 +1115,45 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 });
 
-(quil.core.copy.cljs$core$IFn$_invoke$arity$2 = (function (p__14869,p__14870){
-var vec__14871 = p__14869;
-var sx = cljs.core.nth.call(null,vec__14871,(0),null);
-var sy = cljs.core.nth.call(null,vec__14871,(1),null);
-var swidth = cljs.core.nth.call(null,vec__14871,(2),null);
-var sheight = cljs.core.nth.call(null,vec__14871,(3),null);
-var vec__14874 = p__14870;
-var dx = cljs.core.nth.call(null,vec__14874,(0),null);
-var dy = cljs.core.nth.call(null,vec__14874,(1),null);
-var dwidth = cljs.core.nth.call(null,vec__14874,(2),null);
-var dheight = cljs.core.nth.call(null,vec__14874,(3),null);
+(quil.core.copy.cljs$core$IFn$_invoke$arity$2 = (function (p__15404,p__15405){
+var vec__15406 = p__15404;
+var sx = cljs.core.nth.call(null,vec__15406,(0),null);
+var sy = cljs.core.nth.call(null,vec__15406,(1),null);
+var swidth = cljs.core.nth.call(null,vec__15406,(2),null);
+var sheight = cljs.core.nth.call(null,vec__15406,(3),null);
+var vec__15409 = p__15405;
+var dx = cljs.core.nth.call(null,vec__15409,(0),null);
+var dy = cljs.core.nth.call(null,vec__15409,(1),null);
+var dwidth = cljs.core.nth.call(null,vec__15409,(2),null);
+var dheight = cljs.core.nth.call(null,vec__15409,(3),null);
 return quil.core.current_graphics.call(null).copy((sx | (0)),(sy | (0)),(swidth | (0)),(sheight | (0)),(dx | (0)),(dy | (0)),(dwidth | (0)),(dheight | (0)));
 }));
 
-(quil.core.copy.cljs$core$IFn$_invoke$arity$3 = (function (src_img,p__14877,p__14878){
-var vec__14879 = p__14877;
-var sx = cljs.core.nth.call(null,vec__14879,(0),null);
-var sy = cljs.core.nth.call(null,vec__14879,(1),null);
-var swidth = cljs.core.nth.call(null,vec__14879,(2),null);
-var sheight = cljs.core.nth.call(null,vec__14879,(3),null);
-var vec__14882 = p__14878;
-var dx = cljs.core.nth.call(null,vec__14882,(0),null);
-var dy = cljs.core.nth.call(null,vec__14882,(1),null);
-var dwidth = cljs.core.nth.call(null,vec__14882,(2),null);
-var dheight = cljs.core.nth.call(null,vec__14882,(3),null);
+(quil.core.copy.cljs$core$IFn$_invoke$arity$3 = (function (src_img,p__15412,p__15413){
+var vec__15414 = p__15412;
+var sx = cljs.core.nth.call(null,vec__15414,(0),null);
+var sy = cljs.core.nth.call(null,vec__15414,(1),null);
+var swidth = cljs.core.nth.call(null,vec__15414,(2),null);
+var sheight = cljs.core.nth.call(null,vec__15414,(3),null);
+var vec__15417 = p__15413;
+var dx = cljs.core.nth.call(null,vec__15417,(0),null);
+var dy = cljs.core.nth.call(null,vec__15417,(1),null);
+var dwidth = cljs.core.nth.call(null,vec__15417,(2),null);
+var dheight = cljs.core.nth.call(null,vec__15417,(3),null);
 return quil.core.copy.call(null,src_img,quil.core.current_graphics.call(null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [sx,sy,swidth,sheight], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [dx,dy,dwidth,dheight], null));
 }));
 
-(quil.core.copy.cljs$core$IFn$_invoke$arity$4 = (function (src_img,dest_img,p__14885,p__14886){
-var vec__14887 = p__14885;
-var sx = cljs.core.nth.call(null,vec__14887,(0),null);
-var sy = cljs.core.nth.call(null,vec__14887,(1),null);
-var swidth = cljs.core.nth.call(null,vec__14887,(2),null);
-var sheight = cljs.core.nth.call(null,vec__14887,(3),null);
-var vec__14890 = p__14886;
-var dx = cljs.core.nth.call(null,vec__14890,(0),null);
-var dy = cljs.core.nth.call(null,vec__14890,(1),null);
-var dwidth = cljs.core.nth.call(null,vec__14890,(2),null);
-var dheight = cljs.core.nth.call(null,vec__14890,(3),null);
+(quil.core.copy.cljs$core$IFn$_invoke$arity$4 = (function (src_img,dest_img,p__15420,p__15421){
+var vec__15422 = p__15420;
+var sx = cljs.core.nth.call(null,vec__15422,(0),null);
+var sy = cljs.core.nth.call(null,vec__15422,(1),null);
+var swidth = cljs.core.nth.call(null,vec__15422,(2),null);
+var sheight = cljs.core.nth.call(null,vec__15422,(3),null);
+var vec__15425 = p__15421;
+var dx = cljs.core.nth.call(null,vec__15425,(0),null);
+var dy = cljs.core.nth.call(null,vec__15425,(1),null);
+var dwidth = cljs.core.nth.call(null,vec__15425,(2),null);
+var dheight = cljs.core.nth.call(null,vec__15425,(3),null);
 return dest_img.copy(src_img,(sx | (0)),(sy | (0)),(swidth | (0)),(sheight | (0)),(dx | (0)),(dy | (0)),(dwidth | (0)),(dheight | (0)));
 }));
 
@@ -1194,8 +1194,8 @@ return quil.sketch.current_applet.call(null).cos(angle);
  *   graphics object will be honored.
  */
 quil.core.create_graphics = (function quil$core$create_graphics(var_args){
-var G__14895 = arguments.length;
-switch (G__14895) {
+var G__15430 = arguments.length;
+switch (G__15430) {
 case 2:
 return quil.core.create_graphics.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1258,8 +1258,8 @@ return new cljs.core.Keyword(null,"current-stroke","current-stroke",-1338415274)
  *   symbol (clj only).
  */
 quil.core.cursor = (function quil$core$cursor(var_args){
-var G__14898 = arguments.length;
-switch (G__14898) {
+var G__15433 = arguments.length;
+switch (G__15433) {
 case 0:
 return quil.core.cursor.cljs$core$IFn$_invoke$arity$0();
 
@@ -1296,8 +1296,8 @@ return quil.sketch.current_applet.call(null).cursor(cljs.core.str.cljs$core$IFn$
  *   splines.
  */
 quil.core.curve = (function quil$core$curve(var_args){
-var G__14901 = arguments.length;
-switch (G__14901) {
+var G__15436 = arguments.length;
+switch (G__15436) {
 case 8:
 return quil.core.curve.cljs$core$IFn$_invoke$arity$8((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]),(arguments[(5)]),(arguments[(6)]),(arguments[(7)]));
 
@@ -1373,8 +1373,8 @@ return quil.core.current_graphics.call(null).curveTightness(tightness);
  *   Catmull-Rom splines.
  */
 quil.core.curve_vertex = (function quil$core$curve_vertex(var_args){
-var G__14904 = arguments.length;
-switch (G__14904) {
+var G__15439 = arguments.length;
+switch (G__15439) {
 case 2:
 return quil.core.curve_vertex.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1403,8 +1403,8 @@ return quil.core.current_graphics.call(null).curveVertex(x,y,z);
  * Draw a cylinder with given `radius` and `height`.
  */
 quil.core.cylinder = (function quil$core$cylinder(var_args){
-var G__14907 = arguments.length;
-switch (G__14907) {
+var G__15442 = arguments.length;
+switch (G__15442) {
 case 2:
 return quil.core.cylinder.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1466,8 +1466,8 @@ return quil.core.current_graphics.call(null).directionalLight(r,g,b,nx,ny,nz);
  * Calculates the distance between two points.
  */
 quil.core.dist = (function quil$core$dist(var_args){
-var G__14910 = arguments.length;
-switch (G__14910) {
+var G__15445 = arguments.length;
+switch (G__15445) {
 case 4:
 return quil.core.dist.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -1492,7 +1492,7 @@ return quil.sketch.current_applet.call(null).dist(x1,y1,z1,x2,y2,z2);
 
 (quil.core.dist.cljs$lang$maxFixedArity = 6);
 
-var ret__4785__auto___14917 = (function (){
+var ret__4785__auto___15452 = (function (){
 /**
  * Macro for drawing on graphics which saves result in the file at the end.
  *   Similar to [[with-graphics]] macro. [[do-record]] assumed to be used
@@ -1507,14 +1507,14 @@ var ret__4785__auto___14917 = (function (){
  */
 quil.core.do_record = (function quil$core$do_record(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___14918 = arguments.length;
-var i__4737__auto___14919 = (0);
+var len__4736__auto___15453 = arguments.length;
+var i__4737__auto___15454 = (0);
 while(true){
-if((i__4737__auto___14919 < len__4736__auto___14918)){
-args__4742__auto__.push((arguments[i__4737__auto___14919]));
+if((i__4737__auto___15454 < len__4736__auto___15453)){
+args__4742__auto__.push((arguments[i__4737__auto___15454]));
 
-var G__14920 = (i__4737__auto___14919 + (1));
-i__4737__auto___14919 = G__14920;
+var G__15455 = (i__4737__auto___15454 + (1));
+i__4737__auto___15454 = G__15455;
 continue;
 } else {
 }
@@ -1526,21 +1526,21 @@ return quil.core.do_record.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)])
 });
 
 (quil.core.do_record.cljs$core$IFn$_invoke$arity$variadic = (function (_AMPERSAND_form,_AMPERSAND_env,graphics,body){
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__14912__auto__","gr__14912__auto__",-285569806,null),null,(1),null)),(new cljs.core.List(null,graphics,null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","with-graphics","quil.core/with-graphics",481277883,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__14912__auto__","gr__14912__auto__",-285569806,null),null,(1),null)),body))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,".dispose",".dispose",-1697594101,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__14912__auto__","gr__14912__auto__",-285569806,null),null,(1),null))))),null,(1),null)))));
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15447__auto__","gr__15447__auto__",1242510480,null),null,(1),null)),(new cljs.core.List(null,graphics,null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","with-graphics","quil.core/with-graphics",481277883,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15447__auto__","gr__15447__auto__",1242510480,null),null,(1),null)),body))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,".dispose",".dispose",-1697594101,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15447__auto__","gr__15447__auto__",1242510480,null),null,(1),null))))),null,(1),null)))));
 }));
 
 (quil.core.do_record.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(quil.core.do_record.cljs$lang$applyTo = (function (seq14913){
-var G__14914 = cljs.core.first.call(null,seq14913);
-var seq14913__$1 = cljs.core.next.call(null,seq14913);
-var G__14915 = cljs.core.first.call(null,seq14913__$1);
-var seq14913__$2 = cljs.core.next.call(null,seq14913__$1);
-var G__14916 = cljs.core.first.call(null,seq14913__$2);
-var seq14913__$3 = cljs.core.next.call(null,seq14913__$2);
+(quil.core.do_record.cljs$lang$applyTo = (function (seq15448){
+var G__15449 = cljs.core.first.call(null,seq15448);
+var seq15448__$1 = cljs.core.next.call(null,seq15448);
+var G__15450 = cljs.core.first.call(null,seq15448__$1);
+var seq15448__$2 = cljs.core.next.call(null,seq15448__$1);
+var G__15451 = cljs.core.first.call(null,seq15448__$2);
+var seq15448__$3 = cljs.core.next.call(null,seq15448__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__14914,G__14915,G__14916,seq14913__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15449,G__15450,G__15451,seq15448__$3);
 }));
 
 return null;
@@ -1581,8 +1581,8 @@ return quil.core.current_graphics.call(null).ellipseMode(mode__$1);
  *      * `detail-y` - number of segments, the more segments the smoother geometry default is 16
  */
 quil.core.ellipsoid = (function quil$core$ellipsoid(var_args){
-var G__14922 = arguments.length;
-switch (G__14922) {
+var G__15457 = arguments.length;
+switch (G__15457) {
 case 3:
 return quil.core.ellipsoid.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -1631,8 +1631,8 @@ return quil.core.current_graphics.call(null).endContour();
  *   close the shape (to connect the beginning and the end).
  */
 quil.core.end_shape = (function quil$core$end_shape(var_args){
-var G__14925 = arguments.length;
-switch (G__14925) {
+var G__15460 = arguments.length;
+switch (G__15460) {
 case 0:
 return quil.core.end_shape.cljs$core$IFn$_invoke$arity$0();
 
@@ -1690,8 +1690,8 @@ return cljs.core.swap_BANG_.call(null,quil.core.internal_state.call(null),cljs.c
  *   calling [[no-fill]].
  */
 quil.core.fill = (function quil$core$fill(var_args){
-var G__14928 = arguments.length;
-switch (G__14928) {
+var G__15463 = arguments.length;
+switch (G__15463) {
 case 1:
 return quil.core.fill.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1757,8 +1757,8 @@ return quil.core.save_current_fill.call(null,new cljs.core.PersistentVector(null
  *   it. Can be used in conjunction with [[pixel-density]].
  */
 quil.core.display_density = (function quil$core$display_density(var_args){
-var G__14931 = arguments.length;
-switch (G__14931) {
+var G__15466 = arguments.length;
+switch (G__15466) {
 case 0:
 return quil.core.display_density.cljs$core$IFn$_invoke$arity$0();
 
@@ -1812,8 +1812,8 @@ return quil.sketch.current_applet.call(null).displayDensity(display);
  *   * `:dilate`    - increases the light areas. Doesn't work with level.
  */
 quil.core.display_filter = (function quil$core$display_filter(var_args){
-var G__14934 = arguments.length;
-switch (G__14934) {
+var G__15469 = arguments.length;
+switch (G__15469) {
 case 1:
 return quil.core.display_filter.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1902,8 +1902,8 @@ return quil.sketch.current_applet.call(null).frameRate(new_rate);
  *   If no `img` specified - [[current-graphics]] is used.
  */
 quil.core.get_pixel = (function quil$core$get_pixel(var_args){
-var G__14937 = arguments.length;
-switch (G__14937) {
+var G__15472 = arguments.length;
+switch (G__15472) {
 case 0:
 return quil.core.get_pixel.cljs$core$IFn$_invoke$arity$0();
 
@@ -1975,8 +1975,8 @@ return quil.core.current_graphics.call(null).green(quil.util.clj_unchecked_int.c
  *   geeky debugging sessions much happier.
  */
 quil.core.hex = (function quil$core$hex(var_args){
-var G__14940 = arguments.length;
-switch (G__14940) {
+var G__15475 = arguments.length;
+switch (G__15475) {
 case 1:
 return quil.core.hex.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -2033,8 +2033,8 @@ return quil.core.current_graphics.call(null).hue(quil.util.clj_unchecked_int.cal
  * define the x and y values of the opposite corner of the image.
  */
 quil.core.image = (function quil$core$image(var_args){
-var G__14943 = arguments.length;
-switch (G__14943) {
+var G__15478 = arguments.length;
+switch (G__15478) {
 case 3:
 return quil.core.image.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -2088,8 +2088,8 @@ return quil.core.current_graphics.call(null).image(img,x,y,width,height);
  *   * `:dilate`    - increases the light areas. Doesn't work with `level`.
  */
 quil.core.image_filter = (function quil$core$image_filter(var_args){
-var G__14946 = arguments.length;
-switch (G__14946) {
+var G__15481 = arguments.length;
+switch (G__15481) {
 case 2:
 return quil.core.image_filter.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -2233,8 +2233,8 @@ return quil.core.current_graphics.call(null).lights();
  *   allows the line to be placed anywhere within XYZ space.
  */
 quil.core.line = (function quil$core$line(var_args){
-var G__14949 = arguments.length;
-switch (G__14949) {
+var G__15484 = arguments.length;
+switch (G__15484) {
 case 2:
 return quil.core.line.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -2314,8 +2314,8 @@ return quil.sketch.current_applet.call(null).loadImage(cljs.core.str.cljs$core$I
  *   renderer. In cljs mode shaders are compatible with the P3D renderer.
  */
 quil.core.load_shader = (function quil$core$load_shader(var_args){
-var G__14952 = arguments.length;
-switch (G__14952) {
+var G__15487 = arguments.length;
+switch (G__15487) {
 case 1:
 return quil.core.load_shader.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -2351,9 +2351,9 @@ return quil.sketch.current_applet.call(null).loadModel(filename);
  * Returns true if object is loaded.
  */
 quil.core.loaded_QMARK_ = (function quil$core$loaded_QMARK_(object){
-var pred__14954 = cljs.core._EQ_;
-var expr__14955 = cljs.core.type.call(null,object);
-if(cljs.core.truth_(pred__14954.call(null,p5.Shader,expr__14955))){
+var pred__15489 = cljs.core._EQ_;
+var expr__15490 = cljs.core.type.call(null,object);
+if(cljs.core.truth_(pred__15489.call(null,p5.Shader,expr__15490))){
 var and__4115__auto__ = (object["_vertSrc"]);
 if(cljs.core.truth_(and__4115__auto__)){
 return (object["_fragSrc"]);
@@ -2361,10 +2361,10 @@ return (object["_fragSrc"]);
 return and__4115__auto__;
 }
 } else {
-if(cljs.core.truth_(pred__14954.call(null,p5.Image,expr__14955))){
+if(cljs.core.truth_(pred__15489.call(null,p5.Image,expr__15490))){
 return (object.width > (0));
 } else {
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expr__14955)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expr__15490)].join('')));
 }
 }
 });
@@ -2408,8 +2408,8 @@ return quil.sketch.current_applet.call(null).map(val,low1,high1,low2,high2);
  *   masks.
  */
 quil.core.mask_image = (function quil$core$mask_image(var_args){
-var G__14958 = arguments.length;
-switch (G__14958) {
+var G__15493 = arguments.length;
+switch (G__15493) {
 case 1:
 return quil.core.mask_image.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -2460,15 +2460,15 @@ return quil.sketch.current_applet.call(null).month();
  */
 quil.core.mouse_button = (function quil$core$mouse_button(){
 var button_code = quil.sketch.current_applet.call(null).mouseButton;
-var pred__14960 = cljs.core._EQ_;
-var expr__14961 = button_code;
-if(cljs.core.truth_(pred__14960.call(null,(p5.prototype["LEFT"]),expr__14961))){
+var pred__15495 = cljs.core._EQ_;
+var expr__15496 = button_code;
+if(cljs.core.truth_(pred__15495.call(null,(p5.prototype["LEFT"]),expr__15496))){
 return new cljs.core.Keyword(null,"left","left",-399115937);
 } else {
-if(cljs.core.truth_(pred__14960.call(null,(p5.prototype["RIGHT"]),expr__14961))){
+if(cljs.core.truth_(pred__15495.call(null,(p5.prototype["RIGHT"]),expr__15496))){
 return new cljs.core.Keyword(null,"right","right",-452581833);
 } else {
-if(cljs.core.truth_(pred__14960.call(null,(p5.prototype["CENTER"]),expr__14961))){
+if(cljs.core.truth_(pred__15495.call(null,(p5.prototype["CENTER"]),expr__15496))){
 return new cljs.core.Keyword(null,"center","center",-748944368);
 } else {
 return null;
@@ -2542,8 +2542,8 @@ return cljs.core.swap_BANG_.call(null,quil.core.internal_state.call(null),cljs.c
  *   applications, but this will differ depending on use.
  */
 quil.core.noise = (function quil$core$noise(var_args){
-var G__14964 = arguments.length;
-switch (G__14964) {
+var G__15499 = arguments.length;
+switch (G__15499) {
 case 1:
 return quil.core.noise.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -2596,8 +2596,8 @@ return quil.sketch.current_applet.call(null).noise(x,y,z);
  *   characteristics.
  */
 quil.core.noise_detail = (function quil$core$noise_detail(var_args){
-var G__14967 = arguments.length;
-switch (G__14967) {
+var G__15502 = arguments.length;
+switch (G__15502) {
 case 1:
 return quil.core.noise_detail.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -2700,8 +2700,8 @@ return quil.core.current_graphics.call(null).orbitControl();
  *   used: `(ortho 0 width 0 height -10 10)`
  */
 quil.core.ortho = (function quil$core$ortho(var_args){
-var G__14970 = arguments.length;
-switch (G__14970) {
+var G__15505 = arguments.length;
+switch (G__15505) {
 case 0:
 return quil.core.ortho.cljs$core$IFn$_invoke$arity$0();
 
@@ -2748,8 +2748,8 @@ return quil.core.current_graphics.call(null).ortho(left,right,bottom,top,near,fa
  *   `cameraZ` is `((height/2.0) / tan(PI*60.0/360.0))`
  */
 quil.core.perspective = (function quil$core$perspective(var_args){
-var G__14973 = arguments.length;
-switch (G__14973) {
+var G__15508 = arguments.length;
+switch (G__15508) {
 case 0:
 return quil.core.perspective.cljs$core$IFn$_invoke$arity$0();
 
@@ -2791,8 +2791,8 @@ return quil.sketch.current_applet.call(null).pixelDensity(density);
  *   update the changes. Calls `.loadPixels` before obtaining the pixel array.
  */
 quil.core.pixels = (function quil$core$pixels(var_args){
-var G__14976 = arguments.length;
-switch (G__14976) {
+var G__15511 = arguments.length;
+switch (G__15511) {
 case 0:
 return quil.core.pixels.cljs$core$IFn$_invoke$arity$0();
 
@@ -2850,8 +2850,8 @@ return quil.sketch.current_applet.call(null).pmouseY;
  *   or `:opengl` renderer to be used.
  */
 quil.core.point = (function quil$core$point(var_args){
-var G__14979 = arguments.length;
-switch (G__14979) {
+var G__15514 = arguments.length;
+switch (G__15514) {
 case 2:
 return quil.core.point.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -2974,8 +2974,8 @@ return quil.core.current_graphics.call(null).quad(x1,y1,x2,y2,x3,y3,x4,y4);
  *   version requires rendering with `:p3d`.
  */
 quil.core.quadratic_vertex = (function quil$core$quadratic_vertex(var_args){
-var G__14982 = arguments.length;
-switch (G__14982) {
+var G__15517 = arguments.length;
+switch (G__15517) {
 case 4:
 return quil.core.quadratic_vertex.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -3023,8 +3023,8 @@ return quil.sketch.current_applet.call(null).radians(degrees);
  *   including) 10.2.
  */
 quil.core.random = (function quil$core$random(var_args){
-var G__14985 = arguments.length;
-switch (G__14985) {
+var G__15520 = arguments.length;
+switch (G__15520) {
 case 1:
 return quil.core.random.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -3117,8 +3117,8 @@ return quil.sketch.current_applet.call(null).key;
  *   for each corner, include eight parameters.
  */
 quil.core.rect = (function quil$core$rect(var_args){
-var G__14988 = arguments.length;
-switch (G__14988) {
+var G__15523 = arguments.length;
+switch (G__15523) {
 case 4:
 return quil.core.rect.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -3177,14 +3177,14 @@ return quil.core.current_graphics.call(null).rectMode(mode__$1);
  */
 quil.core.print_first_n = (function quil$core$print_first_n(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___14992 = arguments.length;
-var i__4737__auto___14993 = (0);
+var len__4736__auto___15527 = arguments.length;
+var i__4737__auto___15528 = (0);
 while(true){
-if((i__4737__auto___14993 < len__4736__auto___14992)){
-args__4742__auto__.push((arguments[i__4737__auto___14993]));
+if((i__4737__auto___15528 < len__4736__auto___15527)){
+args__4742__auto__.push((arguments[i__4737__auto___15528]));
 
-var G__14994 = (i__4737__auto___14993 + (1));
-i__4737__auto___14993 = G__14994;
+var G__15529 = (i__4737__auto___15528 + (1));
+i__4737__auto___15528 = G__15529;
 continue;
 } else {
 }
@@ -3206,11 +3206,11 @@ return null;
 (quil.core.print_first_n.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(quil.core.print_first_n.cljs$lang$applyTo = (function (seq14990){
-var G__14991 = cljs.core.first.call(null,seq14990);
-var seq14990__$1 = cljs.core.next.call(null,seq14990);
+(quil.core.print_first_n.cljs$lang$applyTo = (function (seq15525){
+var G__15526 = cljs.core.first.call(null,seq15525);
+var seq15525__$1 = cljs.core.next.call(null,seq15525);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__14991,seq14990__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15526,seq15525__$1);
 }));
 
 /**
@@ -3218,14 +3218,14 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__14991,seq14990
  */
 quil.core.print_every_n_millisec = (function quil$core$print_every_n_millisec(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___14997 = arguments.length;
-var i__4737__auto___14998 = (0);
+var len__4736__auto___15532 = arguments.length;
+var i__4737__auto___15533 = (0);
 while(true){
-if((i__4737__auto___14998 < len__4736__auto___14997)){
-args__4742__auto__.push((arguments[i__4737__auto___14998]));
+if((i__4737__auto___15533 < len__4736__auto___15532)){
+args__4742__auto__.push((arguments[i__4737__auto___15533]));
 
-var G__14999 = (i__4737__auto___14998 + (1));
-i__4737__auto___14998 = G__14999;
+var G__15534 = (i__4737__auto___15533 + (1));
+i__4737__auto___15533 = G__15534;
 continue;
 } else {
 }
@@ -3251,11 +3251,11 @@ return null;
 (quil.core.print_every_n_millisec.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(quil.core.print_every_n_millisec.cljs$lang$applyTo = (function (seq14995){
-var G__14996 = cljs.core.first.call(null,seq14995);
-var seq14995__$1 = cljs.core.next.call(null,seq14995);
+(quil.core.print_every_n_millisec.cljs$lang$applyTo = (function (seq15530){
+var G__15531 = cljs.core.first.call(null,seq15530);
+var seq15530__$1 = cljs.core.next.call(null,seq15530);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__14996,seq14995__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15531,seq15530__$1);
 }));
 
 /**
@@ -3280,8 +3280,8 @@ return quil.core.current_graphics.call(null).red(quil.util.clj_unchecked_int.cal
  *   continuously called anyway.
  */
 quil.core.redraw = (function quil$core$redraw(var_args){
-var G__15001 = arguments.length;
-switch (G__15001) {
+var G__15536 = arguments.length;
+switch (G__15536) {
 case 0:
 return quil.core.redraw.cljs$core$IFn$_invoke$arity$0();
 
@@ -3362,8 +3362,8 @@ return quil.sketch.set_size.call(null,quil.sketch.current_applet.call(null),widt
  *   toward the user, the rotation will be counterclockwise.
  */
 quil.core.rotate = (function quil$core$rotate(var_args){
-var G__15004 = arguments.length;
-switch (G__15004) {
+var G__15539 = arguments.length;
+switch (G__15539) {
 case 1:
 return quil.core.rotate.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -3477,8 +3477,8 @@ return quil.core.current_graphics.call(null).save(cljs.core.str.cljs$core$IFn$_i
  *   [[push-matrix]] and [[pop-matrix]].
  */
 quil.core.scale = (function quil$core$scale(var_args){
-var G__15007 = arguments.length;
-switch (G__15007) {
+var G__15542 = arguments.length;
+switch (G__15542) {
 case 1:
 return quil.core.scale.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -3535,8 +3535,8 @@ return quil.sketch.current_applet.call(null).second();
  *   help. (Bug 1094)
  */
 quil.core.set_pixel = (function quil$core$set_pixel(var_args){
-var G__15010 = arguments.length;
-switch (G__15010) {
+var G__15545 = arguments.length;
+switch (G__15545) {
 case 3:
 return quil.core.set_pixel.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -3673,8 +3673,8 @@ return quil.sketch.current_applet.call(null).sin(angle);
  *   Note that smooth will also improve image quality of resized images.
  */
 quil.core.smooth = (function quil$core$smooth(var_args){
-var G__15013 = arguments.length;
-switch (G__15013) {
+var G__15548 = arguments.length;
+switch (G__15548) {
 case 0:
 return quil.core.smooth.cljs$core$IFn$_invoke$arity$0();
 
@@ -3708,8 +3708,8 @@ return quil.core.current_graphics.call(null).smooth((level | (0)));
  *   the material properties of shapes.
  */
 quil.core.specular = (function quil$core$specular(var_args){
-var G__15016 = arguments.length;
-switch (G__15016) {
+var G__15551 = arguments.length;
+switch (G__15551) {
 case 1:
 return quil.core.specular.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -3781,8 +3781,8 @@ return cljs.core.swap_BANG_.call(null,quil.core.internal_state.call(null),cljs.c
  *   If nil is passed it removes any fill color; equivalent to [[no-stroke]].
  */
 quil.core.stroke = (function quil$core$stroke(var_args){
-var G__15019 = arguments.length;
-switch (G__15019) {
+var G__15554 = arguments.length;
+switch (G__15554) {
 case 1:
 return quil.core.stroke.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -3889,8 +3889,8 @@ return new cljs.core.Keyword(null,"frame-rate","frame-rate",-994918942).cljs$cor
  *   [[text]] function for more details.
  */
 quil.core.text_char = (function quil$core$text_char(var_args){
-var G__15022 = arguments.length;
-switch (G__15022) {
+var G__15557 = arguments.length;
+switch (G__15557) {
 case 3:
 return quil.core.text_char.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -3928,8 +3928,8 @@ return null;
  *   [[text]] function for more details.
  */
 quil.core.text_num = (function quil$core$text_num(var_args){
-var G__15025 = arguments.length;
-switch (G__15025) {
+var G__15560 = arguments.length;
+switch (G__15560) {
 case 3:
 return quil.core.text_num.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -3977,8 +3977,8 @@ return null;
  *   the current [[rect-mode]] setting.
  */
 quil.core.text = (function quil$core$text(var_args){
-var G__15028 = arguments.length;
-switch (G__15028) {
+var G__15563 = arguments.length;
+switch (G__15563) {
 case 3:
 return quil.core.text.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -4036,8 +4036,8 @@ return null;
  *   change the size of the font.
  */
 quil.core.text_align = (function quil$core$text_align(var_args){
-var G__15031 = arguments.length;
-switch (G__15031) {
+var G__15566 = arguments.length;
+switch (G__15566) {
 case 1:
 return quil.core.text_align.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -4102,8 +4102,8 @@ return quil.core.current_graphics.call(null).textDescent();
  *   [[create-font]] function.
  */
 quil.core.text_font = (function quil$core$text_font(var_args){
-var G__15034 = arguments.length;
-switch (G__15034) {
+var G__15569 = arguments.length;
+switch (G__15569) {
 case 1:
 return quil.core.text_font.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -4188,8 +4188,8 @@ return quil.core.current_graphics.call(null).textWidth(data);
  *   Also used to control the coloring of textures in 3D.
  */
 quil.core.tint = (function quil$core$tint(var_args){
-var G__15037 = arguments.length;
-switch (G__15037) {
+var G__15572 = arguments.length;
+switch (G__15572) {
 case 1:
 return quil.core.tint.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -4238,8 +4238,8 @@ return quil.core.current_graphics.call(null).tint(g,g,b,a);
  *      * `detail-y` - number of segments, the more segments the smoother geometry default is 16
  */
 quil.core.torus = (function quil$core$torus(var_args){
-var G__15040 = arguments.length;
-switch (G__15040) {
+var G__15575 = arguments.length;
+switch (G__15575) {
 case 2:
 return quil.core.torus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -4285,8 +4285,8 @@ return quil.core.current_graphics.call(null).torus(radius,tube_radius,(detail_x 
  *   the [[push-matrix]] and [[pop-matrix]] functions.
  */
 quil.core.translate = (function quil$core$translate(var_args){
-var G__15043 = arguments.length;
-switch (G__15043) {
+var G__15578 = arguments.length;
+switch (G__15578) {
 case 1:
 return quil.core.translate.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -4356,8 +4356,8 @@ return quil.sketch.current_applet.call(null).unhex(cljs.core.str.cljs$core$IFn$_
  *   release, this will always be subject to change.
  */
 quil.core.update_pixels = (function quil$core$update_pixels(var_args){
-var G__15046 = arguments.length;
-switch (G__15046) {
+var G__15581 = arguments.length;
+switch (G__15581) {
 case 0:
 return quil.core.update_pixels.cljs$core$IFn$_invoke$arity$0();
 
@@ -4399,8 +4399,8 @@ return img.updatePixels();
  *   changed with [[texture-mode]].
  */
 quil.core.vertex = (function quil$core$vertex(var_args){
-var G__15049 = arguments.length;
-switch (G__15049) {
+var G__15584 = arguments.length;
+switch (G__15584) {
 case 2:
 return quil.core.vertex.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -4454,7 +4454,7 @@ return quil.sketch.current_applet.call(null).year();
 quil.core.width = (function quil$core$width(){
 return quil.sketch.current_applet.call(null).width;
 });
-var ret__4785__auto___15058 = (function (){
+var ret__4785__auto___15593 = (function (){
 /**
  * Temporarily set the fill color for the body of this macro.
  * The code outside of the [[with-fill]] form will have the previous
@@ -4471,14 +4471,14 @@ var ret__4785__auto___15058 = (function (){
  */
 quil.core.with_fill = (function quil$core$with_fill(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___15059 = arguments.length;
-var i__4737__auto___15060 = (0);
+var len__4736__auto___15594 = arguments.length;
+var i__4737__auto___15595 = (0);
 while(true){
-if((i__4737__auto___15060 < len__4736__auto___15059)){
-args__4742__auto__.push((arguments[i__4737__auto___15060]));
+if((i__4737__auto___15595 < len__4736__auto___15594)){
+args__4742__auto__.push((arguments[i__4737__auto___15595]));
 
-var G__15061 = (i__4737__auto___15060 + (1));
-i__4737__auto___15060 = G__15061;
+var G__15596 = (i__4737__auto___15595 + (1));
+i__4737__auto___15595 = G__15596;
 continue;
 } else {
 }
@@ -4490,21 +4490,21 @@ return quil.core.with_fill.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)])
 });
 
 (quil.core.with_fill.cljs$core$IFn$_invoke$arity$variadic = (function (_AMPERSAND_form,_AMPERSAND_env,fill,body){
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"fill__15051__auto__","fill__15051__auto__",-1035787041,null),null,(1),null)),(new cljs.core.List(null,fill,null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-fill__15052__auto__","previous-fill__15052__auto__",1105360509,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","current-fill","quil.core/current-fill",269663137,null),null,(1),null))))),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","cond","cljs.core/cond",2005388338,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","sequential?","cljs.core/sequential?",1777854658,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"fill__15051__auto__","fill__15051__auto__",-1035787041,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","apply","cljs.core/apply",1757277831,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol("quil.core","fill","quil.core/fill",814613078,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"fill__15051__auto__","fill__15051__auto__",-1035787041,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,true,null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","fill","quil.core/fill",814613078,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"fill__15051__auto__","fill__15051__auto__",-1035787041,null),null,(1),null))))),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"return-val__15053__auto__","return-val__15053__auto__",-1206869444,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"do","do",1686842252,null),null,(1),null)),body))),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"if","if",1181717262,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","nil?","cljs.core/nil?",945071861,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-fill__15052__auto__","previous-fill__15052__auto__",1105360509,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","no-fill","quil.core/no-fill",-389901598,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","fill","quil.core/fill",814613078,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-fill__15052__auto__","previous-fill__15052__auto__",1105360509,null),null,(1),null))))),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"return-val__15053__auto__","return-val__15053__auto__",-1206869444,null),null,(1),null))))),null,(1),null)))));
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"fill__15586__auto__","fill__15586__auto__",-1217219018,null),null,(1),null)),(new cljs.core.List(null,fill,null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-fill__15587__auto__","previous-fill__15587__auto__",-922782908,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","current-fill","quil.core/current-fill",269663137,null),null,(1),null))))),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","cond","cljs.core/cond",2005388338,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","sequential?","cljs.core/sequential?",1777854658,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"fill__15586__auto__","fill__15586__auto__",-1217219018,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","apply","cljs.core/apply",1757277831,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol("quil.core","fill","quil.core/fill",814613078,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"fill__15586__auto__","fill__15586__auto__",-1217219018,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,true,null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","fill","quil.core/fill",814613078,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"fill__15586__auto__","fill__15586__auto__",-1217219018,null),null,(1),null))))),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"return-val__15588__auto__","return-val__15588__auto__",2110391455,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"do","do",1686842252,null),null,(1),null)),body))),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"if","if",1181717262,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","nil?","cljs.core/nil?",945071861,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-fill__15587__auto__","previous-fill__15587__auto__",-922782908,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","no-fill","quil.core/no-fill",-389901598,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","fill","quil.core/fill",814613078,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-fill__15587__auto__","previous-fill__15587__auto__",-922782908,null),null,(1),null))))),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"return-val__15588__auto__","return-val__15588__auto__",2110391455,null),null,(1),null))))),null,(1),null)))));
 }));
 
 (quil.core.with_fill.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(quil.core.with_fill.cljs$lang$applyTo = (function (seq15054){
-var G__15055 = cljs.core.first.call(null,seq15054);
-var seq15054__$1 = cljs.core.next.call(null,seq15054);
-var G__15056 = cljs.core.first.call(null,seq15054__$1);
-var seq15054__$2 = cljs.core.next.call(null,seq15054__$1);
-var G__15057 = cljs.core.first.call(null,seq15054__$2);
-var seq15054__$3 = cljs.core.next.call(null,seq15054__$2);
+(quil.core.with_fill.cljs$lang$applyTo = (function (seq15589){
+var G__15590 = cljs.core.first.call(null,seq15589);
+var seq15589__$1 = cljs.core.next.call(null,seq15589);
+var G__15591 = cljs.core.first.call(null,seq15589__$1);
+var seq15589__$2 = cljs.core.next.call(null,seq15589__$1);
+var G__15592 = cljs.core.first.call(null,seq15589__$2);
+var seq15589__$3 = cljs.core.next.call(null,seq15589__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15055,G__15056,G__15057,seq15054__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15590,G__15591,G__15592,seq15589__$3);
 }));
 
 return null;
@@ -4512,7 +4512,7 @@ return null;
 ;
 (quil.core.with_fill.cljs$lang$macro = true);
 
-var ret__4785__auto___15069 = (function (){
+var ret__4785__auto___15604 = (function (){
 /**
  * Temporarily set the stroke color for the body of this macro.
  * The code outside of the [[with-stroke]] form will have the previous
@@ -4529,14 +4529,14 @@ var ret__4785__auto___15069 = (function (){
  */
 quil.core.with_stroke = (function quil$core$with_stroke(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___15070 = arguments.length;
-var i__4737__auto___15071 = (0);
+var len__4736__auto___15605 = arguments.length;
+var i__4737__auto___15606 = (0);
 while(true){
-if((i__4737__auto___15071 < len__4736__auto___15070)){
-args__4742__auto__.push((arguments[i__4737__auto___15071]));
+if((i__4737__auto___15606 < len__4736__auto___15605)){
+args__4742__auto__.push((arguments[i__4737__auto___15606]));
 
-var G__15072 = (i__4737__auto___15071 + (1));
-i__4737__auto___15071 = G__15072;
+var G__15607 = (i__4737__auto___15606 + (1));
+i__4737__auto___15606 = G__15607;
 continue;
 } else {
 }
@@ -4548,21 +4548,21 @@ return quil.core.with_stroke.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)
 });
 
 (quil.core.with_stroke.cljs$core$IFn$_invoke$arity$variadic = (function (_AMPERSAND_form,_AMPERSAND_env,stroke,body){
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"stroke__15062__auto__","stroke__15062__auto__",-1969679508,null),null,(1),null)),(new cljs.core.List(null,stroke,null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-stroke__15063__auto__","previous-stroke__15063__auto__",-2078528437,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","current-stroke","quil.core/current-stroke",-1148124489,null),null,(1),null))))),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","cond","cljs.core/cond",2005388338,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","sequential?","cljs.core/sequential?",1777854658,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"stroke__15062__auto__","stroke__15062__auto__",-1969679508,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","apply","cljs.core/apply",1757277831,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol("quil.core","stroke","quil.core/stroke",577473004,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"stroke__15062__auto__","stroke__15062__auto__",-1969679508,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,true,null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","stroke","quil.core/stroke",577473004,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"stroke__15062__auto__","stroke__15062__auto__",-1969679508,null),null,(1),null))))),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"return-val__15064__auto__","return-val__15064__auto__",-763404235,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"do","do",1686842252,null),null,(1),null)),body))),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"if","if",1181717262,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","nil?","cljs.core/nil?",945071861,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-stroke__15063__auto__","previous-stroke__15063__auto__",-2078528437,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","no-stroke","quil.core/no-stroke",779188421,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","stroke","quil.core/stroke",577473004,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-stroke__15063__auto__","previous-stroke__15063__auto__",-2078528437,null),null,(1),null))))),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"return-val__15064__auto__","return-val__15064__auto__",-763404235,null),null,(1),null))))),null,(1),null)))));
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"stroke__15597__auto__","stroke__15597__auto__",-1250991680,null),null,(1),null)),(new cljs.core.List(null,stroke,null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-stroke__15598__auto__","previous-stroke__15598__auto__",-694717180,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","current-stroke","quil.core/current-stroke",-1148124489,null),null,(1),null))))),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","cond","cljs.core/cond",2005388338,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","sequential?","cljs.core/sequential?",1777854658,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"stroke__15597__auto__","stroke__15597__auto__",-1250991680,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","apply","cljs.core/apply",1757277831,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol("quil.core","stroke","quil.core/stroke",577473004,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"stroke__15597__auto__","stroke__15597__auto__",-1250991680,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,true,null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","stroke","quil.core/stroke",577473004,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"stroke__15597__auto__","stroke__15597__auto__",-1250991680,null),null,(1),null))))),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"return-val__15599__auto__","return-val__15599__auto__",-1280602272,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"do","do",1686842252,null),null,(1),null)),body))),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"if","if",1181717262,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","nil?","cljs.core/nil?",945071861,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-stroke__15598__auto__","previous-stroke__15598__auto__",-694717180,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","no-stroke","quil.core/no-stroke",779188421,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","stroke","quil.core/stroke",577473004,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"previous-stroke__15598__auto__","previous-stroke__15598__auto__",-694717180,null),null,(1),null))))),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"return-val__15599__auto__","return-val__15599__auto__",-1280602272,null),null,(1),null))))),null,(1),null)))));
 }));
 
 (quil.core.with_stroke.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(quil.core.with_stroke.cljs$lang$applyTo = (function (seq15065){
-var G__15066 = cljs.core.first.call(null,seq15065);
-var seq15065__$1 = cljs.core.next.call(null,seq15065);
-var G__15067 = cljs.core.first.call(null,seq15065__$1);
-var seq15065__$2 = cljs.core.next.call(null,seq15065__$1);
-var G__15068 = cljs.core.first.call(null,seq15065__$2);
-var seq15065__$3 = cljs.core.next.call(null,seq15065__$2);
+(quil.core.with_stroke.cljs$lang$applyTo = (function (seq15600){
+var G__15601 = cljs.core.first.call(null,seq15600);
+var seq15600__$1 = cljs.core.next.call(null,seq15600);
+var G__15602 = cljs.core.first.call(null,seq15600__$1);
+var seq15600__$2 = cljs.core.next.call(null,seq15600__$1);
+var G__15603 = cljs.core.first.call(null,seq15600__$2);
+var seq15600__$3 = cljs.core.next.call(null,seq15600__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15066,G__15067,G__15068,seq15065__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15601,G__15602,G__15603,seq15600__$3);
 }));
 
 return null;
@@ -4570,21 +4570,21 @@ return null;
 ;
 (quil.core.with_stroke.cljs$lang$macro = true);
 
-var ret__4785__auto___15078 = (function (){
+var ret__4785__auto___15613 = (function (){
 /**
  * Performs body with translation, restores current transformation on
  *   exit.
  */
 quil.core.with_translation = (function quil$core$with_translation(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___15079 = arguments.length;
-var i__4737__auto___15080 = (0);
+var len__4736__auto___15614 = arguments.length;
+var i__4737__auto___15615 = (0);
 while(true){
-if((i__4737__auto___15080 < len__4736__auto___15079)){
-args__4742__auto__.push((arguments[i__4737__auto___15080]));
+if((i__4737__auto___15615 < len__4736__auto___15614)){
+args__4742__auto__.push((arguments[i__4737__auto___15615]));
 
-var G__15081 = (i__4737__auto___15080 + (1));
-i__4737__auto___15080 = G__15081;
+var G__15616 = (i__4737__auto___15615 + (1));
+i__4737__auto___15615 = G__15616;
 continue;
 } else {
 }
@@ -4596,21 +4596,21 @@ return quil.core.with_translation.cljs$core$IFn$_invoke$arity$variadic((argument
 });
 
 (quil.core.with_translation.cljs$core$IFn$_invoke$arity$variadic = (function (_AMPERSAND_form,_AMPERSAND_env,translation_vector,body){
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"tr__15073__auto__","tr__15073__auto__",-1434635869,null),null,(1),null)),(new cljs.core.List(null,translation_vector,null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","push-matrix","quil.core/push-matrix",1356326676,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"try","try",-1273693247,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","translate","quil.core/translate",150889028,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"tr__15073__auto__","tr__15073__auto__",-1434635869,null),null,(1),null))))),null,(1),null)),body,(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"finally","finally",-1065347064,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","pop-matrix","quil.core/pop-matrix",310892617,null),null,(1),null))))),null,(1),null))))),null,(1),null))))),null,(1),null)))));
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"tr__15608__auto__","tr__15608__auto__",-814425605,null),null,(1),null)),(new cljs.core.List(null,translation_vector,null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","push-matrix","quil.core/push-matrix",1356326676,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"try","try",-1273693247,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","translate","quil.core/translate",150889028,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"tr__15608__auto__","tr__15608__auto__",-814425605,null),null,(1),null))))),null,(1),null)),body,(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"finally","finally",-1065347064,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","pop-matrix","quil.core/pop-matrix",310892617,null),null,(1),null))))),null,(1),null))))),null,(1),null))))),null,(1),null)))));
 }));
 
 (quil.core.with_translation.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(quil.core.with_translation.cljs$lang$applyTo = (function (seq15074){
-var G__15075 = cljs.core.first.call(null,seq15074);
-var seq15074__$1 = cljs.core.next.call(null,seq15074);
-var G__15076 = cljs.core.first.call(null,seq15074__$1);
-var seq15074__$2 = cljs.core.next.call(null,seq15074__$1);
-var G__15077 = cljs.core.first.call(null,seq15074__$2);
-var seq15074__$3 = cljs.core.next.call(null,seq15074__$2);
+(quil.core.with_translation.cljs$lang$applyTo = (function (seq15609){
+var G__15610 = cljs.core.first.call(null,seq15609);
+var seq15609__$1 = cljs.core.next.call(null,seq15609);
+var G__15611 = cljs.core.first.call(null,seq15609__$1);
+var seq15609__$2 = cljs.core.next.call(null,seq15609__$1);
+var G__15612 = cljs.core.first.call(null,seq15609__$2);
+var seq15609__$3 = cljs.core.next.call(null,seq15609__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15075,G__15076,G__15077,seq15074__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15610,G__15611,G__15612,seq15609__$3);
 }));
 
 return null;
@@ -4618,7 +4618,7 @@ return null;
 ;
 (quil.core.with_translation.cljs$lang$macro = true);
 
-var ret__4785__auto___15087 = (function (){
+var ret__4785__auto___15622 = (function (){
 /**
  * Performs body with rotation, restores current transformation on exit.
  *   Accepts a vector `[angle]` or `[angle x y z]`.
@@ -4636,14 +4636,14 @@ var ret__4785__auto___15087 = (function (){
  */
 quil.core.with_rotation = (function quil$core$with_rotation(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___15088 = arguments.length;
-var i__4737__auto___15089 = (0);
+var len__4736__auto___15623 = arguments.length;
+var i__4737__auto___15624 = (0);
 while(true){
-if((i__4737__auto___15089 < len__4736__auto___15088)){
-args__4742__auto__.push((arguments[i__4737__auto___15089]));
+if((i__4737__auto___15624 < len__4736__auto___15623)){
+args__4742__auto__.push((arguments[i__4737__auto___15624]));
 
-var G__15090 = (i__4737__auto___15089 + (1));
-i__4737__auto___15089 = G__15090;
+var G__15625 = (i__4737__auto___15624 + (1));
+i__4737__auto___15624 = G__15625;
 continue;
 } else {
 }
@@ -4655,21 +4655,21 @@ return quil.core.with_rotation.cljs$core$IFn$_invoke$arity$variadic((arguments[(
 });
 
 (quil.core.with_rotation.cljs$core$IFn$_invoke$arity$variadic = (function (_AMPERSAND_form,_AMPERSAND_env,rotation,body){
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"tr__15082__auto__","tr__15082__auto__",-1961813649,null),null,(1),null)),(new cljs.core.List(null,rotation,null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","push-matrix","quil.core/push-matrix",1356326676,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"try","try",-1273693247,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","apply","cljs.core/apply",1757277831,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol("quil.core","rotate","quil.core/rotate",-1944995048,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"tr__15082__auto__","tr__15082__auto__",-1961813649,null),null,(1),null))))),null,(1),null)),body,(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"finally","finally",-1065347064,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","pop-matrix","quil.core/pop-matrix",310892617,null),null,(1),null))))),null,(1),null))))),null,(1),null))))),null,(1),null)))));
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"tr__15617__auto__","tr__15617__auto__",1081383790,null),null,(1),null)),(new cljs.core.List(null,rotation,null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","push-matrix","quil.core/push-matrix",1356326676,null),null,(1),null))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"try","try",-1273693247,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","apply","cljs.core/apply",1757277831,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol("quil.core","rotate","quil.core/rotate",-1944995048,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"tr__15617__auto__","tr__15617__auto__",1081383790,null),null,(1),null))))),null,(1),null)),body,(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol(null,"finally","finally",-1065347064,null),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","pop-matrix","quil.core/pop-matrix",310892617,null),null,(1),null))))),null,(1),null))))),null,(1),null))))),null,(1),null)))));
 }));
 
 (quil.core.with_rotation.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(quil.core.with_rotation.cljs$lang$applyTo = (function (seq15083){
-var G__15084 = cljs.core.first.call(null,seq15083);
-var seq15083__$1 = cljs.core.next.call(null,seq15083);
-var G__15085 = cljs.core.first.call(null,seq15083__$1);
-var seq15083__$2 = cljs.core.next.call(null,seq15083__$1);
-var G__15086 = cljs.core.first.call(null,seq15083__$2);
-var seq15083__$3 = cljs.core.next.call(null,seq15083__$2);
+(quil.core.with_rotation.cljs$lang$applyTo = (function (seq15618){
+var G__15619 = cljs.core.first.call(null,seq15618);
+var seq15618__$1 = cljs.core.next.call(null,seq15618);
+var G__15620 = cljs.core.first.call(null,seq15618__$1);
+var seq15618__$2 = cljs.core.next.call(null,seq15618__$1);
+var G__15621 = cljs.core.first.call(null,seq15618__$2);
+var seq15618__$3 = cljs.core.next.call(null,seq15618__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15084,G__15085,G__15086,seq15083__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15619,G__15620,G__15621,seq15618__$3);
 }));
 
 return null;
@@ -4683,7 +4683,7 @@ return null;
 quil.core.end_draw = (function quil$core$end_draw(graphics){
 return null;
 });
-var ret__4785__auto___15096 = (function (){
+var ret__4785__auto___15631 = (function (){
 /**
  * All subsequent calls of any drawing function will draw on given
  *   graphics. [[with-graphics]] cannot be nested (you can draw simultaneously
@@ -4691,14 +4691,14 @@ var ret__4785__auto___15096 = (function (){
  */
 quil.core.with_graphics = (function quil$core$with_graphics(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___15097 = arguments.length;
-var i__4737__auto___15098 = (0);
+var len__4736__auto___15632 = arguments.length;
+var i__4737__auto___15633 = (0);
 while(true){
-if((i__4737__auto___15098 < len__4736__auto___15097)){
-args__4742__auto__.push((arguments[i__4737__auto___15098]));
+if((i__4737__auto___15633 < len__4736__auto___15632)){
+args__4742__auto__.push((arguments[i__4737__auto___15633]));
 
-var G__15099 = (i__4737__auto___15098 + (1));
-i__4737__auto___15098 = G__15099;
+var G__15634 = (i__4737__auto___15633 + (1));
+i__4737__auto___15633 = G__15634;
 continue;
 } else {
 }
@@ -4710,21 +4710,21 @@ return quil.core.with_graphics.cljs$core$IFn$_invoke$arity$variadic((arguments[(
 });
 
 (quil.core.with_graphics.cljs$core$IFn$_invoke$arity$variadic = (function (_AMPERSAND_form,_AMPERSAND_env,graphics,body){
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,cljs.core.with_meta.call(null,new cljs.core.Symbol(null,"gr__15091__auto__","gr__15091__auto__",-539020376,null),cljs.core.apply.call(null,cljs.core.array_map,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Keyword(null,"file","file",-1269645878),null,(1),null)),(new cljs.core.List(null,"C:\\Users\\MO02781\\art\\optical-mixture\\target\\public\\cljs-out\\dev\\quil\\core.cljc",null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"line","line",212345235),null,(1),null)),(new cljs.core.List(null,4816,null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"column","column",2078222095),null,(1),null)),(new cljs.core.List(null,21,null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"end-line","end-line",1837326455),null,(1),null)),(new cljs.core.List(null,4816,null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"end-column","end-column",1425389514),null,(1),null)),(new cljs.core.List(null,24,null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"tag","tag",-1290361223),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol("quil.core","PGraphics","quil.core/PGraphics",-1265754815,null),null,(1),null))))))),null,(1),null)),(new cljs.core.List(null,graphics,null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","binding","cljs.core/binding",2050379843,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","*graphics*","quil.core/*graphics*",-1088142302,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15091__auto__","gr__15091__auto__",-539020376,null),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","begin-draw","quil.core/begin-draw",454448665,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15091__auto__","gr__15091__auto__",-539020376,null),null,(1),null))))),null,(1),null)),body,(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","end-draw","quil.core/end-draw",1718268198,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15091__auto__","gr__15091__auto__",-539020376,null),null,(1),null))))),null,(1),null))))),null,(1),null)))));
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","let","cljs.core/let",-308701135,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,cljs.core.with_meta.call(null,new cljs.core.Symbol(null,"gr__15626__auto__","gr__15626__auto__",2129384626,null),cljs.core.apply.call(null,cljs.core.array_map,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Keyword(null,"file","file",-1269645878),null,(1),null)),(new cljs.core.List(null,"/Users/cex/repos/cljs/color-studies/optical-mixture/target/public/cljs-out/dev/quil/core.cljc",null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"line","line",212345235),null,(1),null)),(new cljs.core.List(null,4816,null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"column","column",2078222095),null,(1),null)),(new cljs.core.List(null,21,null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"end-line","end-line",1837326455),null,(1),null)),(new cljs.core.List(null,4816,null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"end-column","end-column",1425389514),null,(1),null)),(new cljs.core.List(null,24,null,(1),null)),(new cljs.core.List(null,new cljs.core.Keyword(null,"tag","tag",-1290361223),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol("quil.core","PGraphics","quil.core/PGraphics",-1265754815,null),null,(1),null))))))),null,(1),null)),(new cljs.core.List(null,graphics,null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("cljs.core","binding","cljs.core/binding",2050379843,null),null,(1),null)),(new cljs.core.List(null,cljs.core.vec.call(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","*graphics*","quil.core/*graphics*",-1088142302,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15626__auto__","gr__15626__auto__",2129384626,null),null,(1),null)))))),null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","begin-draw","quil.core/begin-draw",454448665,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15626__auto__","gr__15626__auto__",2129384626,null),null,(1),null))))),null,(1),null)),body,(new cljs.core.List(null,cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,(new cljs.core.List(null,new cljs.core.Symbol("quil.core","end-draw","quil.core/end-draw",1718268198,null),null,(1),null)),(new cljs.core.List(null,new cljs.core.Symbol(null,"gr__15626__auto__","gr__15626__auto__",2129384626,null),null,(1),null))))),null,(1),null))))),null,(1),null)))));
 }));
 
 (quil.core.with_graphics.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(quil.core.with_graphics.cljs$lang$applyTo = (function (seq15092){
-var G__15093 = cljs.core.first.call(null,seq15092);
-var seq15092__$1 = cljs.core.next.call(null,seq15092);
-var G__15094 = cljs.core.first.call(null,seq15092__$1);
-var seq15092__$2 = cljs.core.next.call(null,seq15092__$1);
-var G__15095 = cljs.core.first.call(null,seq15092__$2);
-var seq15092__$3 = cljs.core.next.call(null,seq15092__$2);
+(quil.core.with_graphics.cljs$lang$applyTo = (function (seq15627){
+var G__15628 = cljs.core.first.call(null,seq15627);
+var seq15627__$1 = cljs.core.next.call(null,seq15627);
+var G__15629 = cljs.core.first.call(null,seq15627__$1);
+var seq15627__$2 = cljs.core.next.call(null,seq15627__$1);
+var G__15630 = cljs.core.first.call(null,seq15627__$2);
+var seq15627__$3 = cljs.core.next.call(null,seq15627__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15093,G__15094,G__15095,seq15092__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15628,G__15629,G__15630,seq15627__$3);
 }));
 
 return null;
@@ -4739,14 +4739,14 @@ return null;
  */
 quil.core.sketch = (function quil$core$sketch(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___15101 = arguments.length;
-var i__4737__auto___15102 = (0);
+var len__4736__auto___15636 = arguments.length;
+var i__4737__auto___15637 = (0);
 while(true){
-if((i__4737__auto___15102 < len__4736__auto___15101)){
-args__4742__auto__.push((arguments[i__4737__auto___15102]));
+if((i__4737__auto___15637 < len__4736__auto___15636)){
+args__4742__auto__.push((arguments[i__4737__auto___15637]));
 
-var G__15103 = (i__4737__auto___15102 + (1));
-i__4737__auto___15102 = G__15103;
+var G__15638 = (i__4737__auto___15637 + (1));
+i__4737__auto___15637 = G__15638;
 continue;
 } else {
 }
@@ -4764,12 +4764,12 @@ return cljs.core.apply.call(null,quil.sketch.sketch,opts);
 (quil.core.sketch.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(quil.core.sketch.cljs$lang$applyTo = (function (seq15100){
+(quil.core.sketch.cljs$lang$applyTo = (function (seq15635){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq15100));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq.call(null,seq15635));
 }));
 
-var ret__4785__auto___15108 = (function (){
+var ret__4785__auto___15643 = (function (){
 /**
  * Define and start a sketch and bind it to a var with the symbol
  *   `app-name`. If any of the options to the various callbacks are
@@ -4881,14 +4881,14 @@ var ret__4785__auto___15108 = (function (){
  */
 quil.core.defsketch = (function quil$core$defsketch(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___15109 = arguments.length;
-var i__4737__auto___15110 = (0);
+var len__4736__auto___15644 = arguments.length;
+var i__4737__auto___15645 = (0);
 while(true){
-if((i__4737__auto___15110 < len__4736__auto___15109)){
-args__4742__auto__.push((arguments[i__4737__auto___15110]));
+if((i__4737__auto___15645 < len__4736__auto___15644)){
+args__4742__auto__.push((arguments[i__4737__auto___15645]));
 
-var G__15111 = (i__4737__auto___15110 + (1));
-i__4737__auto___15110 = G__15111;
+var G__15646 = (i__4737__auto___15645 + (1));
+i__4737__auto___15645 = G__15646;
 continue;
 } else {
 }
@@ -4906,15 +4906,15 @@ return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.cal
 (quil.core.defsketch.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(quil.core.defsketch.cljs$lang$applyTo = (function (seq15104){
-var G__15105 = cljs.core.first.call(null,seq15104);
-var seq15104__$1 = cljs.core.next.call(null,seq15104);
-var G__15106 = cljs.core.first.call(null,seq15104__$1);
-var seq15104__$2 = cljs.core.next.call(null,seq15104__$1);
-var G__15107 = cljs.core.first.call(null,seq15104__$2);
-var seq15104__$3 = cljs.core.next.call(null,seq15104__$2);
+(quil.core.defsketch.cljs$lang$applyTo = (function (seq15639){
+var G__15640 = cljs.core.first.call(null,seq15639);
+var seq15639__$1 = cljs.core.next.call(null,seq15639);
+var G__15641 = cljs.core.first.call(null,seq15639__$1);
+var seq15639__$2 = cljs.core.next.call(null,seq15639__$1);
+var G__15642 = cljs.core.first.call(null,seq15639__$2);
+var seq15639__$3 = cljs.core.next.call(null,seq15639__$2);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15105,G__15106,G__15107,seq15104__$3);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15640,G__15641,G__15642,seq15639__$3);
 }));
 
 return null;
